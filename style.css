@@ -105,9 +105,14 @@ button{
     color: white;
     padding: 10px 20px;
     border-radius: 7px;
-    font-weight: bold;
-    align-items: center;
+    font-weight: bold;    
+    transition: .5s;
 }
 .column-25 button{
     margin-top: 22px;
+}
+button:hover {
+    background-color: white;
+    color: blueviolet;
+    border: 1px solid #ccc;
 }
